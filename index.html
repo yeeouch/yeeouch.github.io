@@ -1,16 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Maina | AI Strategist & Auditor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0a192f;
+            --secondary: #64ffda;
+            --text: #8892b0;
+            --white: #e6f1ff;
+        }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--primary);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; padding: 100px 0; }
+        h1 { color: var(--white); font-size: 3rem; margin-bottom: 10px; }
+        .tagline { color: var(--secondary); font-family: monospace; font-size: 1.2rem; }
+        .section { margin: 80px 0; }
+        h2 { color: var(--white); border-bottom: 1px solid #233554; padding-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: #112240; padding: 30px; border-radius: 8px; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card h3 { color: var(--secondary); margin-top: 0; }
+        .btn { display: inline-block; padding: 12px 24px; border: 1px solid var(--secondary); color: var(--secondary); text-decoration: none; border-radius: 4px; margin-top: 20px; transition: 0.3s; }
+        .btn:hover { background: rgba(100, 255, 218, 0.1); }
+        .highlight { color: var(--white); font-weight: bold; }
+    </style>
+</head>
 <body>
-<p> <p>
-<label for="cars">Choose a car:</label>
-<select id="cars" name="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="fiat">Fiat</option>
-  <option value="audi">Audi</option>
-</select>>
+    <div class="container">
+        <header>
+            <h1>Patrick Maina</h1>
+            <p class="tagline">Bridging the Representation Gap for the Global South</p>
+            <p>Founder, Neriah AI | Solutions Architect | AI Policy Researcher</p>
+            <a href="mailto:patrickmainah@gmail.com" class="btn">Get In Touch</a>
+        </header>
 
+        <section class="section">
+            <h2>The Mission</h2>
+            <p>Frontier AI models often struggle with a <span class="highlight">"Representation Gap"</span> in emerging markets due to knowledge cutoffs and sparse regional training data. I provide the technical evaluation and grounding strategies—leveraging <span class="highlight">Answer Engine Optimization (AEO)</span>—to ensure AI is a reliable tool for African enterprise.</p>
+        </section>
 
+        <section class="section">
+            <h2>Core Expertise</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>AI Evaluation</h3>
+                    <p>Utilizing tools like <span class="highlight">Arize Phoenix</span> to perform deep-trace audits, quantify hallucination rates, and verify citation fidelity in regional financial contexts.</p>
+                </div>
+                <div class="card">
+                    <h3>AEO Strategy</h3>
+                    <p>Designing structured data protocols (Schema, llms.txt) that act as a real-time "Source of Truth" to ground LLM outputs for local brands.</p>
+                </div>
+                <div class="card">
+                    <h3>Banking Systems</h3>
+                    <p>15+ years experience managing core banking architectures for <span class="highlight">30+ institutions</span> across Africa and Asia, ensuring 99.9% reliability.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Featured Research</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Auditing the Representation Gap</h3>
+                    <p>A technical brief on the systemic risks of "Data Decay" in frontier models within the African financial sector.</p>
+                    <a href="#" class="btn">Read Paper</a>
+                </div>
+                <div class="card">
+                    <h3>AI Integration Framework</h3>
+                    <p>A strategic white paper on safe LLM deployment in highly regulated, mission-critical banking environments.</p>
+                    <a href="#" class="btn">Read Paper</a>
+                </div>
+            </div>
+        </section>
+
+        <footer style="text-align: center; margin-top: 100px; font-size: 0.9rem;">
+            <p>Built with technical precision. &copy; 2026 Patrick Maina</p>
+            <p><a href="https://linkedin.com/in/mainapatrick" style="color: var(--secondary);">LinkedIn</a> | <a href="https://github.com/yeeouch" style="color: var(--secondary);">GitHub</a></p>
+        </footer>
+    </div>
 </body>
 </html>
-
